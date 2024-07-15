@@ -21,16 +21,37 @@ export class AppMenuComponent implements OnInit {
                 ]
             },
             {
+                label: 'Network',
+                items: [
+                    { label: 'Forum', icon: 'pi pi-fw pi-home', routerLink: ['/'] },
+                    { label: 'Connections', icon: 'pi pi-fw pi-home', routerLink: ['/'] },
+                    { label: 'Messages', icon: 'pi pi-fw pi-home', routerLink: ['/'] }
+                ]
+            },
+            {
                 label: 'Employee',
                 items: [
+                    { label: 'Your Profile', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/formlayout'] },
+                    { label: 'Profile Viewers', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/formlayout'] },
                     { label: 'Resume Builder', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/formlayout'] },
+                    { label: 'Cover Letter Builder', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/tree'] },
+                    { label: 'Motivation Letter Builder', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/panel'] },
+                    { label: 'Find A Job', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/panel'] },
                 ]
             },
             {
                 label: 'Employer',
                 items: [
-                    { label: 'Profile Builder', icon: 'pi pi-fw pi-eye', routerLink: ['/uikit/tree'], badge: 'NEW' },
+                    { label: 'Post A Job', icon: 'pi pi-fw pi-eye', routerLink: ['/uikit/tree'] },
+                    { label: 'Skill Tree Builder', icon: 'pi pi-fw pi-eye', routerLink: ['/uikit/tree'] },
                     { label: 'Exam Builder', icon: 'pi pi-fw pi-globe', routerLink: ['/uikit/panel'] },
+                ]
+            },
+            {
+                label: 'Settings',
+                items: [
+                    { label: 'Account', icon: 'pi pi-fw pi-eye', routerLink: ['/uikit/tree'] },
+                    { label: 'Manage Billing', icon: 'pi pi-fw pi-eye', routerLink: ['/uikit/tree'] },
                 ]
             },
             {
